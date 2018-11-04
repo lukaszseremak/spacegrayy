@@ -5,11 +5,10 @@ if exists('syntax_on')
   syntax reset
 endif
 
-set background=dark
+" set background=dark
 let colors_name = 'spacegrayy'
 
 " Colorscheme definitions {{{1
-hi Normal          ctermbg=234  ctermfg=250    guibg=#111314  guifg=#c2daed  cterm=NONE      gui=NONE
 hi Comment         ctermbg=NONE ctermfg=59     guibg=NONE     guifg=#3d4e5b cterm=italic    gui=italic
 hi Conceal         ctermbg=NONE ctermfg=250    guibg=NONE     guifg=#B3B8C4  cterm=NONE      gui=NONE
 hi NonText         ctermbg=NONE ctermfg=8      guibg=NONE     guifg=#3E4853  cterm=NONE      gui=NONE
